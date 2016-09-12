@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background" >
+
+        <ImageView
+            android:id="@+id/imgFabi2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/fabiola" />
+
+        <com.threemdev.alcoloca.CustomTextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgManu2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="53dp"
+            android:layout_marginLeft="18dp"
+            android:text="Emanuele"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3fa341" />
+
+        <com.threemdev.alcoloca.CustomTextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imgFabi2"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="55dp"
+            android:text="Fabiola"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3fa341" />
+
+        <ImageView
+            android:id="@+id/imgManu2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="37dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/eman" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

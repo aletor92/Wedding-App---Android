@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="bottom"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:paddingTop="15dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout3"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="26dp" >
+
+            <Button
+                android:id="@+id/seguici"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/facebook_selector" />
+
+            <Button
+                android:id="@+id/countdown"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/countdown_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_centerHorizontal="false" >
+
+            <Button
+                android:id="@+id/chi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/fedi_selector" />
+
+            <Button
+                android:id="@+id/dove"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/mappa_selector" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout3"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/linearLayout3"
+            android:src="@drawable/header" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+<com.threemdev.alcoloca.CustomTextView
+    android:id="@+id/matchit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="30dp"
+    android:text="Emanuele e Fabiola"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#3fa341" />
+
+<ImageView
+    android:id="@+id/imageViewPic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/pic" />
+
+</RelativeLayout>
